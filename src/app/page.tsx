@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import { prisma } from '@/db';
+import { prisma } from '../db';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
