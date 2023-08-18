@@ -9,7 +9,8 @@
     "prettier": "prettier --write --ignore-unknown .",
     "prettier:check": "prettier --check --ignore-unknown .",
     "start": "next start",
-    "test": "yarn prettier:check && yarn lint"
+    "test": "yarn prettier:check && yarn lint",
+    "postinstall": "prisma generate"
   },
   "git": {
     "pre-commit": "lint-staged"
